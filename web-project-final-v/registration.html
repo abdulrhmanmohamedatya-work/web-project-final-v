@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Register</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/style/auth.css" />
+  <link rel="icon" type="image/svg+xml" href="./src/img/clothes-rack.png" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="left"></div>
+    <div class="right">
+      <h2>Create Account</h2>
+      <label>FULL NAME</label>
+      <input class="regInput" type="text" placeholder="Enter full name" />
+      <label>EMAIL</label>
+      <input class="regInput" type="email" placeholder="Enter email" />
+      <label>USERNAME</label>
+      <input class="regInput" type="text" placeholder="Create username" />
+      <label>PASSWORD</label>
+      <input class="regInput" type="password" placeholder="Create password" />
+      <label>CONFIRM PASSWORD</label>
+      <input class="regInput" type="password" placeholder="Confirm password" />
+      <button id="regBtn" disabled>Register</button>
+      <p class="bottom-text" id="back-log-in">
+        Already have an account? <a href="#">Sign In</a>
+      </p>
+    </div>
+  </div>
+  <script src="./src/database/database.js"></script>
+  <script src="./src/js/indexRegistration.js"></script>
+</body>
+
+</html>
